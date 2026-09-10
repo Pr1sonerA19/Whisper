@@ -5,15 +5,15 @@ description = "Whisper — an esoteric programming language with no direct +1"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-authors = [{ name = "Your Name" }]
+authors = [{ name = "Pr1sonerA19" }]
 keywords = ["esolang", "esoteric-language", "interpreter", "whisper"]
 
 [project.optional-dependencies]
 dev = ["pytest"]
 
 [project.urls]
-Homepage = "https://github.com/YOUR-USERNAME/whisper-lang"
-Repository = "https://github.com/YOUR-USERNAME/whisper-lang"
+Homepage = "https://github.com/Pr1sonerA19/whisper-lang"
+Repository = "https://github.com/Pr1sonerA19/whisper-lang"
 
 [project.scripts]
 whisper = "whisper.interpreter:main"
