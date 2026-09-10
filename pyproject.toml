@@ -12,8 +12,8 @@ keywords = ["esolang", "esoteric-language", "interpreter", "whisper"]
 dev = ["pytest"]
 
 [project.urls]
-Homepage = "https://github.com/Pr1sonerA19/whisper-lang"
-Repository = "https://github.com/Pr1sonerA19/whisper-lang"
+Homepage = "https://github.com/Pr1sonerA19/Whisper"
+Repository = "https://github.com/Pr1sonerA19/Whisper"
 
 [project.scripts]
 whisper = "whisper.interpreter:main"
