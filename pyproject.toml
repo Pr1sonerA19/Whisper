@@ -1,0 +1,26 @@
+[project]
+name = "whisper-lang"
+version = "0.1.0"
+description = "Whisper — an esoteric programming language with no direct +1"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["esolang", "esoteric-language", "interpreter", "whisper"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/YOUR-USERNAME/whisper-lang"
+Repository = "https://github.com/YOUR-USERNAME/whisper-lang"
+
+[project.scripts]
+whisper = "whisper.interpreter:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
