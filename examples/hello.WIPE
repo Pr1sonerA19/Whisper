@@ -1,0 +1,26 @@
+; Whisper has no comment syntax of its own, but every character
+; outside the instruction set is a no-op — so plain-English notes
+; work fine as long as they avoid F, L, Y, o, and the digit 3.
+
+; --- build phase: construct one letter per memory station ---
+; each station is 10 cells apart; & advances to the next one
+L}}}&              ; H
+L--}}F}F&           ; e
+L--}}-}&            ; l
+L--}}-}&            ; l
+FF}}}F}=&           ; o
+L-}}&               ; ,
+LF}}&               ; (space)
+FF}}F}=&            ; w
+FF}}}F}=&           ; o
+FFF}F}}=&           ; r
+L--}}-}&            ; l
+L--}F}}&            ; d
+F===-               ; !
+
+; --- rewind to station 0 ---
+333333333333
+
+; --- print phase: one loop replaces 13 manual print/move pairs ---
+[@&]
+_
